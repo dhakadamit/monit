@@ -16,6 +16,9 @@ default[:monit][:mailserver][:port] = nil
 default[:monit][:mailserver][:username] = nil
 default[:monit][:mailserver][:password] = nil
 default[:monit][:mailserver][:password_suffix] = nil
+default[:monit][:mailserver][:tls] = false
+default[:monit][:mailserver][:ssl] = false
+default[:monit][:mailserver][:timeout] = nil
 
 default[:monit][:port] = 3737
 default[:monit][:address] = "localhost"
